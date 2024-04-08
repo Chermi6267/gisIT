@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap');
+
+body {
+    color: var(--text-dr-th);
+    --gradient-dr-th-90deg: linear-gradient(90deg, #83F5E5 0%, #00D8FF 45%, #E761BD 100%);
+    --gradient-dr-th-180deg: linear-gradient(180deg, #83F5E5 0%, #00D8FF 45%, #E761BD 100%);
+    --backgr: #E8E2F0;
+    --text: #71727C;
+    --color1: #E2CBDB;
+    --color2: #D1D2F5;
+}
+
+body.dark {
+    --gradient-90deg: linear-gradient(90deg, #FB7185 0%, #B94FEF 45%, #6365F1 100%);
+    --gradient-180deg: linear-gradient(180deg, #FB7185 0%, #B94FEF 45%, #6365F1 100%);
+    --backgr: #2D2C3A;
+    --text: #FFFFFF;
+    --color1: #747182;
+    --color2: #554659;
+}
